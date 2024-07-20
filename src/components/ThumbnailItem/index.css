@@ -1,0 +1,23 @@
+.thumbnail-list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.thumbnail-item {
+  margin-right: 10px;
+}
+
+.thumbnail-button {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.thumbnail {
+  opacity: 0.5;
+}
+
+.thumbnail.active {
+  opacity: 1;
+}
